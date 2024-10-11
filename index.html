@@ -6,8 +6,18 @@
 <title>About Section</title>
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  body {
+    background-image: url("images/about/background2.jpg"); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+  }
+</style>
 
 <style>
+  
   .about-section {
     text-align: center;
     padding: 50px 0;
@@ -118,7 +128,8 @@
 
 /* Ensure padding is added to body to avoid content being hidden behind the navbar */
 body { 
-  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+  padding-top: 56px;
+   /* Adjust this value based on the height of your navbar */
 }
 
 /* Smooth scroll */
@@ -172,7 +183,8 @@ html {
 </head>
 <body>
 
-<section id='about' class="about-section">
+  <section id="about" style="background-color: rgba(0, 0, 0, 0.5); padding: 50px; color: white;">
+
   <div class="container">
     <h2>SAIM CHISHTI</h2>
     <img src="images/about/1.jpg" alt="About Me">
