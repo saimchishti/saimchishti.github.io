@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: url('background/aig.gif') no-repeat center center fixed;
+  background: url('background/aig_2.gif') no-repeat center center fixed;
   background-size: cover;
   left: 0;
   right: 0;
